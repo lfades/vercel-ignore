@@ -1,0 +1,21 @@
+{
+  "name": "vercel-ignore",
+  "version": "1.0.0",
+  "description": "Ignore command for Vercel's \"Ignored Build Step\"",
+  "author": "LFades",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "scripts": {
+    "build": "swc src -d dist -s"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.9",
+    "@types/node": "^18.11.2",
+    "typescript": "^4.8.4"
+  }
+}
