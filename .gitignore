@@ -5,6 +5,7 @@
 
 # Misc
 .DS_Store
+tsconfig.tsbuildinfo
 
 # Build
 dist
