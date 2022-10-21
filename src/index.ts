@@ -65,14 +65,13 @@ async function hasProjectChanged(): Promise<boolean> {
       return true
     }
 
-    console.log(error)
-    throw new Error(`\n\`git diff\` failed with: ${error.stderr}`)
+    throw new Error(`\`git diff\` failed with: ${error.stderr}`)
   }
 }
 
 hasProjectChanged()
   .then((changed) => {
-    process.exit(changed ? 0 : 1)
+    process.exit(changed ? 1 : 0)
   })
   .catch((error) => {
     console.error('> An error occurred while comparing the commits:')

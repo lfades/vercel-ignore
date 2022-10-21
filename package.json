@@ -1,6 +1,6 @@
 {
   "name": "vercel-ignore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ignore command for Vercel's \"Ignored Build Step\"",
   "author": "LFades",
   "license": "MIT",
